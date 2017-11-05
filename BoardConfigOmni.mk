@@ -14,8 +14,8 @@
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-TARGET_KERNEL_SOURCE := kernel/moto/shamu
-TARGET_KERNEL_CONFIG := omni_shamu_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/shamu
+TARGET_KERNEL_CONFIG := purez_defconfig
 
 # Healthd
 HEALTHD_ENABLE_TRICOLOR_LED := true
