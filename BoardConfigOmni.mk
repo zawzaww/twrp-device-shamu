@@ -12,10 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Kernel
+# TWRP Inline Kernel
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-TARGET_KERNEL_SOURCE := kernel/motorola/shamu
+TARGET_KERNEL_SOURCE := kernel/moto/shamu
 TARGET_KERNEL_CONFIG := purez_defconfig
+TARGET_KERNEL_ARCH := arm
+TARGET_KERNEL_HEADER_ARCH := arm
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
+TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Healthd
 HEALTHD_ENABLE_TRICOLOR_LED := true
