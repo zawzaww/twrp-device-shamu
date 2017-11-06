@@ -12,12 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Target CPU Architecture
+# CPU Architecture
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
+
+# Bootloader and Platform
+TARGET_NO_BOOTLOADER := true
+TARGET_NO_RADIOIMAGE := true
+TARGET_BOARD_PLATFORM := msm8084
+TARGET_BOOTLOADER_BOARD_NAME := shamu
+TARGET_NO_RPC := true
+TARGET_BOARD_INFO_FILE := device/moto/shamu/board-info.txt
+
+# Recovery fstab
+TARGET_RECOVERY_FSTAB = device/moto/shamu/fstab.shamu
 
 # TWRP Inline Kernel
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
