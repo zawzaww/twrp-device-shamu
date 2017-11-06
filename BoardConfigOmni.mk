@@ -27,6 +27,9 @@ TARGET_BOOTLOADER_BOARD_NAME := shamu
 TARGET_NO_RPC := true
 TARGET_BOARD_INFO_FILE := device/moto/shamu/board-info.txt
 
+# F2FS Support
+TARGET_USERIMAGES_USE_F2FS := true
+
 # Recovery fstab
 TARGET_RECOVERY_FSTAB = device/moto/shamu/fstab.shamu
 
