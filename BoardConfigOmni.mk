@@ -35,7 +35,7 @@ TARGET_RECOVERY_FSTAB = device/moto/shamu/fstab.shamu
 
 # TWRP Inline Kernel
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-TARGET_KERNEL_SOURCE := kernel/moto/shamu
+TARGET_KERNEL_SOURCE := kernel/moto/purez-kernel-shamu
 TARGET_KERNEL_CONFIG := purez_defconfig
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm

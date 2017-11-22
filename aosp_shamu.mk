@@ -37,4 +37,3 @@ PRODUCT_NAME := aosp_shamu
 
 PRODUCT_PACKAGES += \
     Launcher3
-
