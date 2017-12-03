@@ -61,4 +61,4 @@ TARGET_RECOVERY_DEVICE_DIRS := device/moto/shamu
 TW_EXCLUDE_SUPERSU := true
 TW_NEVER_UNMOUNT_SYSTEM := true
 TW_NO_SCREEN_TIMEOUT := true
-TW_DEVICE_VERSION := shamu by ZawZaw
+TW_DEVICE_VERSION := shamu-1.0 by ZawZaw
